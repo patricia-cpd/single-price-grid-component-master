@@ -1,0 +1,117 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+
+.main_div {
+    max-width: 625px;
+    margin:auto;
+    background-color: #fff;
+    color: hsl(218, 22%, 67%);
+    border-radius: 15px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06);
+    margin-top: 5%;
+}
+.content_top {
+    padding: 6%;
+}
+
+.content_left {
+    width: 44%;
+    padding-left: 6%;
+    padding-top: 5%;
+    display: inline-block;
+    background-color: #2bb3b1;
+    border-radius: 0 0 0 15px;
+    color: #fff;
+    min-height: 220px;
+    vertical-align: top;
+}
+
+.content_right {
+    width: 44%;
+    padding-left: 6%;
+    padding-top: 5%;
+    margin-left: -4px;
+    display: inline-block;
+    background-color: #4abebd;
+    border-radius: 0 0 15px 0;
+    min-height: 220px;
+    vertical-align: top;
+}
+
+/** TYPOGRAPHY **/
+
+h1 {
+    font-size: 1.25em /**20px**/;
+    font-weight: 700;
+    color: #2bb3b1;
+}
+
+h2 {
+    font-size: 1em /**16px**/;
+    font-weight: 700;
+    color: #bfdf32;
+}
+
+h3 {
+    font-size: 1em /**16px**/;
+    font-weight: 700;
+    color: #fff;
+    line-height: 0em;
+}
+
+h4 {
+    font-weight: 200;
+    font-size: 0.875em /** 14px **/;
+    line-height: 1.5em;
+    color: #fff;
+}
+
+h6 {
+    display: inline-block;
+    font-weight: 200;
+    font-size: 1em;
+    color: #fff;
+    line-height: 0em;
+    margin: 0px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1em /**16px**/;
+    line-height: 1.5em;
+}
+
+.price {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.875em;
+    color: #fff;
+    margin-right: 10px;
+}
+
+/** BUTTONS **/
+.button {
+    width: 230px;
+    background-color: #bfdf32;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 0.875em /** 14px **/;
+    font-weight: 700;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06);
+}
