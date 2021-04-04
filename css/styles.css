@@ -115,3 +115,35 @@ p {
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
     0 12.5px 10px rgba(0, 0, 0, 0.06);
 }
+
+/** MEDIA QUERIES */
+
+/* MOBILE */
+/* Portrait */
+@media only screen and (min-device-width : 320px) and (max-device-width : 667px)
+and (orientation : portrait)
+{ /* STYLES GO HERE */ 
+
+    .content_left {
+        width: 94%;
+        padding-left: 6%;
+        padding-top: 5%;
+        display: inline-block;
+        border-radius: 0;
+        vertical-align: top;
+    }
+    
+    .content_right {
+        width: 94%;
+        padding-left: 6%;
+        padding-top: 5%;
+        margin-left: 0px;
+        border-radius: 0 0 15px 15px;
+        vertical-align: top;
+    }
+
+    .button {
+        width: 93%;
+    }
+
+}
